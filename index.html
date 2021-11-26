@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/build/tailwind.css">
+    <title>Document</title>
+    <script src="path-to-the-file/splide.min.js"></script>
+    <script src="https://kit.fontawesome.com/65a90eb9af.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- nav bar  -->
+    <!-- component -->
+    <div class="dark">
+        <nav class="bg-gray-200 shadow py-2 pl-5 text-gray-500 text-sm">
+            <div class="flex flex-row ">
+                <div class="flex flex-row space-x-2">
+                    <div class="ml-2"><i class="fas fa-envelope" class="w-3 h-3 mt-1 mx-2 "></i></div>
+                    <div>demo@demo.com</div>
+                    <div><i class="fas fa-phone-alt" class="w-3.5 h-3.5 mt-1 mx-2 "></i></div>
+                    <div>+212 (6) 12345678</div>
+                </div>
+
+                <div class="flex flex-row absolute top-2 right-0 space-x-2">
+                    <div>Wishlist (0)</div>
+                    <div>USD</div>
+                    <div><i class="fas fa-chevron-down"></i></div>
+                    <div class="">ENglish</div>
+                    <div class="pr-2"><i class="fas fa-chevron-down"></i></div>
+                </div>
+            </div>
+        </nav>
+        <nav class="bg-white shadow  dark:bg-gray-800">
+            <div class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <a class="text-gray-800 text-xl font-bold md:text-2xl hover:text-gray-700 " href="#">
+                            <img src="src/images/logo/image 1 1 1 (Traced).svg" alt="" class="h-12 w-32">
+                        </a>
+                    </div>
+                    <!-- Mobile menu button -->
+                    <div class="flex md:hidden">
+                        <button type="button"
+                            class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"
+                            aria-label="toggle menu">
+                            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                                <path fill-rule="evenodd"
+                                    d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-row">
+                    <input type="search" name="" id="" placeholder="search entire store "
+                        class="border-gray-300 border-solid border p-1">
+                    <div
+                        class="border-gray-300 border-solid border p-1 border-l-0 w-36 text-sm text-gray-500  pt-2 flex">
+                        <div>
+                            All Categories
+                        </div>
+                        <div class="pl-9">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <div class="p-2 w-12  pl-4 text-gray-600" style="background-color: #fdc12d;">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+                <div class="md:flex items-center">
+                    <div class="flex flex-col md:flex-row md:mx-6">
+                        <a href="#">
+                            <div class="flex flex-row text-gray-800 space-x-2">
+                                <div class="grid place-items-center">
+                                    <div
+                                        class="grid place-items-center bg-gray-300 rounded-full w-10 h-10 fill-current ">
+                                        <i class="far fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="flex-col grid place-items-center">
+                                    <div class="">My Account</div>
+                                    <div class="text-xs">Register & Login</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:mx-6">
+                        <a href="#">
+                            <div class="flex flex-row text-gray-800 space-x-2">
+                                <div class="grid place-items-center">
+                                    <div
+                                        class="grid place-items-center bg-gray-300 rounded-full w-10 h-10 fill-current ">
+                                        <img src="src/images/shopping-bag.png" class="" alt="">
+                                    </div>
+                                </div>
+                                <div class="flex-col grid place-items-center">
+                                    <div class="">My Account</div>
+                                    <div class="text-xs">Register & Login</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div class="bg-gray-800 pl-5">
+            <div class="flex -flex-row space-x-4  ml-3 text-white ">
+                <div class="py-2"><i class="fas fa-home"></i></div>
+                <div class="py-2">Best Sales</div>
+                <div class="py-2">About Us</div>
+                <div class="py-2">Blog</div>
+                <div class="py-2">Brands</div>
+                <div class="py-2">Cintact Us</div>
+                <div class="absolute right-4 text-gray-600  m-0 py-2 px-8" style="background-color: #fdc12d;">
+                    END OF SEASONS BIG-SAL
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end of nav bar -->
+
+
+
+
+
+
+    <main class="flex flex-col h-screen ">
+        <div class="flex flex-1 overflow-hidden">
+            <div class="  w-1/4 p-4 pl-5">
+                <ul class="bg-white p-1 border">
+                    <li class="border-b h-10 pl-2 pt-1 text-gray-600   flex relative"
+                        style="background-color: #fdc12d;">
+                        <div class="pt-1">
+                            Categories
+                        </div>
+                        <div class="absolute top-2 right-2 text-gray-600">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </li>
+                    <li class="border-b h-10 pl-2 pt-1 text-gray-600 flex relative">
+                        <div class="pt-1">
+                            Hammer Drill
+                        </div>
+                        <div class="absolute top-2 right-2 ">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </li>
+                    <li class="border-b h-10 pl-2 pt-1 text-gray-600 flex relative">
+                        <div class="pt-1">
+                            Circular Saw
+                        </div>
+                        <div class="absolute top-2 right-2 ">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </li>
+                    <li class="border-b h-10 pl-2 pt-2 text-gray-600">Orbital Sander</li>
+                    <li class="border-b h-10 pl-2 pt-2 text-gray-600">Shop Vaccum</li>
+                    <li class="border-b h-10 pl-2 pt-2 text-gray-600">Impact Wrench</li>
+                    <li class="border-b h-10 pl-2 pt-2 text-gray-600">Top Deals</li>
+                    <li class="border-b h-10 pl-2 pt-1 text-gray-600 flex relative">
+                        <div class="pt-1">
+                            Hand tool
+                        </div>
+                        <div class="absolute top-2 right-2 ">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </li>
+                    <li class="border-b h-10 pl-2 pt-2 text-gray-600">Manual labour</li>
+                    <li class=" h-10 pl-2 pt-1 text-gray-600 flex relative">
+                        <div class="pt-1">
+                            More Categories
+                        </div>
+                        <div class="absolute top-2 right-2 ">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mt-5 ">
+                    <img src="src/images/malvestida-magazine-u79wy47kvVs-unsplash.jpg" alt=""
+                        class="rounded-xl h-96 w-screen">
+                </div>
+            </div>
+
+            <div class="flex flex-1 flex-col">
+                <div class="flex flex-col overflow-y-auto paragraph px-4">
+                    <div class="mt-4 ">
+                        <img src="https://via.placeholder.com/950x450" class="rounded-lg " alt="">
+                    </div>
+                    <div class="flex flex-row space-x-8 border mt-4 p-4">
+                        <div class="w-1/4 border-r h-20 mx-6 space-x-2 flex place-items-center   flex-row">
+                            <div class="text-gray-700">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="flex flex-col ">
+                                <div class="font-bold">Free Shiping</div>
+                                <div class="text-sm text-gray-600">Order over 150$ free </div>
+                            </div>
+                        </div>
+                        <div class="w-1/4 border-r h-20 mx-6 space-x-2 flex place-items-center   flex-row">
+                            <div class="text-gray-700">
+                                <i class="fas fa-hand-holding-usd"></i>
+                            </div>
+                            <div class="flex flex-col ">
+                                <div class="font-bold">Money back</div>
+                                <div class="text-sm text-gray-600">100% Moneyback </div>
+                            </div>
+                        </div>
+                        <div class="w-1/4 border-r h-20 mx-6 space-x-2 flex place-items-center   flex-row">
+                            <div class="text-gray-700">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="flex flex-col ">
+                                <div class="font-bold">Quality Suport</div>
+                                <div class="text-sm text-gray-600">Send within 30 days. </div>
+                            </div>
+                        </div>
+                        <div class="w-1/4  h-20 mx-6 space-x-2 flex place-items-center   flex-row">
+                            <div class="text-gray-700">
+                                <i class="fas fa-gifts"></i>
+                            </div>
+                            <div class="flex flex-col ">
+                                <div class="font-bold">Gift & Voucher</div>
+                                <div class="text-sm text-gray-600">Order above $200 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex">Footer</div>
+    </main>
+</body>
+
+</html>
